@@ -100,6 +100,5 @@ View from node #4 matches the base table
 The check will be repeated after 60s
 ```
 
-## Run video
-Here's a video of an example run:
-![video](mvandcrash-failure-video.mp4)
+## Example output
+Here's example output of a run with errors: [example-output.txt](example-output.txt)

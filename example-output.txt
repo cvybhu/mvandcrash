@@ -1,0 +1,345 @@
+$ cargo run --release
+    Finished release [optimized] target(s) in 0.04s
+     Running `target/release/mvandcrash`
+Connecting...
+Starting the writes, please kill and restart one node while the writes are being sent.
+Wrote ~5120 rows... Press Enter to stop the writes and verify.
+Wrote ~26112 rows... Press Enter to stop the writes and verify.
+Wrote ~46592 rows... Press Enter to stop the writes and verify.
+Wrote ~67584 rows... Press Enter to stop the writes and verify.
+Wrote ~88576 rows... Press Enter to stop the writes and verify.
+Wrote ~109568 rows... Press Enter to stop the writes and verify.
+Wrote ~130560 rows... Press Enter to stop the writes and verify.
+Wrote ~151040 rows... Press Enter to stop the writes and verify.
+Wrote ~172032 rows... Press Enter to stop the writes and verify.
+Wrote ~193024 rows... Press Enter to stop the writes and verify.
+Wrote ~214016 rows... Press Enter to stop the writes and verify.
+Wrote ~234496 rows... Press Enter to stop the writes and verify.
+Wrote ~255488 rows... Press Enter to stop the writes and verify.
+Wrote ~276480 rows... Press Enter to stop the writes and verify.
+Wrote ~297472 rows... Press Enter to stop the writes and verify.
+
+Stopped the writes, let's wait 60s for the cluster to settle.
+Verifying view table integrity...
+ERROR: View from node #0 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302064
+ERROR: View from node #1 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302063
+ERROR: View from node #2 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302058
+ERROR: View from node #3 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302061
+ERROR: View from node #4 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302062
+
+The check will be repeated after 60s
+Verifying view table integrity...
+View from node #0 matches the base table
+View from node #1 matches the base table
+ERROR: View from node #2 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302073
+ERROR: View from node #3 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302078
+View from node #4 matches the base table
+
+The check will be repeated after 60s
+Verifying view table integrity...
+View from node #0 matches the base table
+View from node #1 matches the base table
+ERROR: View from node #2 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302078
+ERROR: View from node #3 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302078
+View from node #4 matches the base table
+
+The check will be repeated after 60s
+Verifying view table integrity...
+ERROR: View from node #0 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302079
+View from node #1 matches the base table
+ERROR: View from node #2 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302078
+View from node #3 matches the base table
+View from node #4 matches the base table
+
+The check will be repeated after 60s
+Verifying view table integrity...
+ERROR: View from node #0 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302079
+View from node #1 matches the base table
+ERROR: View from node #2 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302079
+View from node #3 matches the base table
+View from node #4 matches the base table
+
+The check will be repeated after 60s
+Verifying view table integrity...
+View from node #0 matches the base table
+ERROR: View from node #1 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302079
+View from node #2 matches the base table
+View from node #3 matches the base table
+View from node #4 matches the base table
+
+The check will be repeated after 60s
+Verifying view table integrity...
+View from node #0 matches the base table
+ERROR: View from node #1 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302078
+ERROR: View from node #2 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302076
+View from node #3 matches the base table
+View from node #4 matches the base table
+
+The check will be repeated after 60s
+Verifying view table integrity...
+View from node #0 matches the base table
+ERROR: View from node #1 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302079
+ERROR: View from node #2 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302079
+View from node #3 matches the base table
+View from node #4 matches the base table
+
+The check will be repeated after 60s
+Verifying view table integrity...
+View from node #0 matches the base table
+View from node #1 matches the base table
+ERROR: View from node #2 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302078
+View from node #3 matches the base table
+ERROR: View from node #4 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302078
+
+The check will be repeated after 60s
+Verifying view table integrity...
+View from node #0 matches the base table
+View from node #1 matches the base table
+ERROR: View from node #2 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302079
+ERROR: View from node #3 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302079
+View from node #4 matches the base table
+
+The check will be repeated after 60s
+Verifying view table integrity...
+ERROR: View from node #0 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302079
+View from node #1 matches the base table
+View from node #2 matches the base table
+ERROR: View from node #3 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302079
+View from node #4 matches the base table
+
+The check will be repeated after 60s
+Verifying view table integrity...
+View from node #0 matches the base table
+View from node #1 matches the base table
+ERROR: View from node #2 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302079
+View from node #3 matches the base table
+View from node #4 matches the base table
+
+The check will be repeated after 60s
+Verifying view table integrity...
+View from node #0 matches the base table
+View from node #1 matches the base table
+ERROR: View from node #2 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302079
+View from node #3 matches the base table
+ERROR: View from node #4 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302079
+
+The check will be repeated after 60s
+Verifying view table integrity...
+ERROR: View from node #0 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302079
+View from node #1 matches the base table
+View from node #2 matches the base table
+View from node #3 matches the base table
+ERROR: View from node #4 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302079
+
+The check will be repeated after 60s
+Verifying view table integrity...
+View from node #0 matches the base table
+View from node #1 matches the base table
+View from node #2 matches the base table
+View from node #3 matches the base table
+ERROR: View from node #4 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302078
+
+The check will be repeated after 60s
+Verifying view table integrity...
+ERROR: View from node #0 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302079
+View from node #1 matches the base table
+ERROR: View from node #2 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302079
+View from node #3 matches the base table
+View from node #4 matches the base table
+
+The check will be repeated after 60s
+Verifying view table integrity...
+View from node #0 matches the base table
+View from node #1 matches the base table
+View from node #2 matches the base table
+View from node #3 matches the base table
+View from node #4 matches the base table
+
+The check will be repeated after 60s
+Verifying view table integrity...
+ERROR: View from node #0 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302079
+View from node #1 matches the base table
+ERROR: View from node #2 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302079
+View from node #3 matches the base table
+View from node #4 matches the base table
+
+The check will be repeated after 60s
+Verifying view table integrity...
+View from node #0 matches the base table
+View from node #1 matches the base table
+ERROR: View from node #2 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302078
+View from node #3 matches the base table
+View from node #4 matches the base table
+
+The check will be repeated after 60s
+Verifying view table integrity...
+View from node #0 matches the base table
+View from node #1 matches the base table
+View from node #2 matches the base table
+View from node #3 matches the base table
+ERROR: View from node #4 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302077
+
+The check will be repeated after 60s
+Verifying view table integrity...
+View from node #0 matches the base table
+View from node #1 matches the base table
+View from node #2 matches the base table
+ERROR: View from node #3 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302079
+ERROR: View from node #4 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302079
+
+The check will be repeated after 60s
+Verifying view table integrity...
+View from node #0 matches the base table
+ERROR: View from node #1 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302079
+View from node #2 matches the base table
+View from node #3 matches the base table
+View from node #4 matches the base table
+
+The check will be repeated after 60s
+Verifying view table integrity...
+View from node #0 matches the base table
+View from node #1 matches the base table
+ERROR: View from node #2 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302077
+View from node #3 matches the base table
+View from node #4 matches the base table
+
+The check will be repeated after 60s
+Verifying view table integrity...
+View from node #0 matches the base table
+ERROR: View from node #1 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302078
+ERROR: View from node #2 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302076
+View from node #3 matches the base table
+ERROR: View from node #4 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302079
+
+The check will be repeated after 60s
+Verifying view table integrity...
+View from node #0 matches the base table
+View from node #1 matches the base table
+ERROR: View from node #2 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302078
+View from node #3 matches the base table
+View from node #4 matches the base table
+
+The check will be repeated after 60s
+Verifying view table integrity...
+View from node #0 matches the base table
+View from node #1 matches the base table
+View from node #2 matches the base table
+View from node #3 matches the base table
+ERROR: View from node #4 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302079
+
+The check will be repeated after 60s
+Verifying view table integrity...
+View from node #0 matches the base table
+View from node #1 matches the base table
+View from node #2 matches the base table
+View from node #3 matches the base table
+View from node #4 matches the base table
+
+The check will be repeated after 60s
+Verifying view table integrity...
+View from node #0 matches the base table
+View from node #1 matches the base table
+View from node #2 matches the base table
+ERROR: View from node #3 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302079
+View from node #4 matches the base table
+
+The check will be repeated after 60s
+Verifying view table integrity...
+View from node #0 matches the base table
+View from node #1 matches the base table
+ERROR: View from node #2 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302077
+View from node #3 matches the base table
+ERROR: View from node #4 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302078
+
+The check will be repeated after 60s
+Verifying view table integrity...
+View from node #0 matches the base table
+View from node #1 matches the base table
+ERROR: View from node #2 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302078
+View from node #3 matches the base table
+View from node #4 matches the base table
+
+The check will be repeated after 60s
+Verifying view table integrity...
+View from node #0 matches the base table
+View from node #1 matches the base table
+View from node #2 matches the base table
+View from node #3 matches the base table
+View from node #4 matches the base table
+
+The check will be repeated after 60s
+Verifying view table integrity...
+View from node #0 matches the base table
+View from node #1 matches the base table
+ERROR: View from node #2 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302079
+ERROR: View from node #3 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302079
+View from node #4 matches the base table
+
+The check will be repeated after 60s
+Verifying view table integrity...
+View from node #0 matches the base table
+View from node #1 matches the base table
+View from node #2 matches the base table
+View from node #3 matches the base table
+View from node #4 matches the base table
+
+The check will be repeated after 60s
+Verifying view table integrity...
+View from node #0 matches the base table
+View from node #1 matches the base table
+ERROR: View from node #2 doesn't match the base table
+base_rows.len(): 302080, view_rows.len(): 302079
+View from node #3 matches the base table
+View from node #4 matches the base table
+
